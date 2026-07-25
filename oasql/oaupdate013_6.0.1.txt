@@ -1753,3 +1753,4 @@ INSERT INTO `oa_mobile_menu` VALUES (24, '我的薪资', 'icon-fukuanshenqing', 
 
 UPDATE `oa_loan` SET `enterprise_id` = 1;
 UPDATE `oa_expense` SET `enterprise_id` = 1;
+UPDATE `oa_disk` SET `file_ext` = 'folder' WHERE `types` = 2;
