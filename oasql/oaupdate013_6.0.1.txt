@@ -1,5 +1,7 @@
 SET FOREIGN_KEY_CHECKS=0;
 
+ALTER TABLE `oa_disk` DROP COLUMN `share_dids`;
+
 CREATE TABLE `oa_account`  (
   `id` int UNSIGNED NOT NULL AUTO_INCREMENT,
   `enterprise_id` int NOT NULL DEFAULT 0 COMMENT '企业主体id',
